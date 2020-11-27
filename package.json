@@ -1,0 +1,22 @@
+{
+  "name": "chluff-assistant",
+  "version": "1.0.0",
+  "description": "chluffs personal discord bot assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedalichelbi/chluff-assistant.git"
+  },
+  "author": "Mohamed Ali Chelbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedalichelbi/chluff-assistant/issues"
+  },
+  "homepage": "https://github.com/mohamedalichelbi/chluff-assistant#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
