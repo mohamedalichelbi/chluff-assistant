@@ -93,6 +93,14 @@ client.on('message', message =>{
             // ADD YOUR CUSTOM TOKEN PAIRS HERE!!!
 
             await checkPair({
+                inputTokenSymbol: 'WETH',
+                inputTokenAddress: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+                outputTokenSymbol: 'USDC',
+                outputTokenAddress: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+                inputAmount: web3.utils.toWei('1', 'ETHER')
+            })
+
+            await checkPair({
             inputTokenSymbol: 'ETH',
             inputTokenAddress: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
             outputTokenSymbol: 'MKR',
