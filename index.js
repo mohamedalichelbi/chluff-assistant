@@ -64,7 +64,7 @@ client.on('message', message =>{
             'Uniswap Return': web3.utils.fromWei(uniswapResult, 'Ether'),
             'Kyber Expected Rate': web3.utils.fromWei(kyberResult.expectedRate, 'Ether'),
             'Kyber Min Return': web3.utils.fromWei(kyberResult.slippageRate, 'Ether'),
-            'Timestamp': moment().tz('America/Chicago').format(),
+            'Timestamp': moment().format(),
         }])
         const channel = client.channels.cache.find(channel => channel.name === "dev-01")
         let message1 = `
