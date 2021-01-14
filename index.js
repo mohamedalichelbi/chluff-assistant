@@ -151,6 +151,11 @@ client.on('message', message =>{
 
     } else if (command === 'stp_eth_price') {
         monitoringPrice = false;
+    } else if(command === 'embed'){
+        message.channel.send({
+            embed: new Discord.MessageEmbed()
+                .setDescription(args.join(' '))
+        });
     }
 });
 
