@@ -156,6 +156,7 @@ client.on('message', message =>{
             embed: new Discord.MessageEmbed()
                 .setDescription(args.join(' '))
         });
+        message.delete();
     }
 });
 
